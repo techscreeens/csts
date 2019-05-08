@@ -61,3 +61,8 @@
   
 * For expediency I have used @babel/polyfill for IE11 support, however
   in a production app I would just include the required core-js polyfills
+  
+* IE11 needs a little more attention to improve the last few UI differences
+  (e.g. empty state button background color, max width for flex fallback) etc.
+  However I have tested it and it works in IE11 with a smal number of easy to
+  fix CSS issues remaining.
