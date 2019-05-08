@@ -7,6 +7,10 @@
   I personally prefer the nested CSS approach as I believe it leads
   to more readable code.
   
+* I would also use css variables and import colours using
+  postcss-custom-properties to inline them at build time for IE11. The
+  color definitions I would have used are in utils/Colors.css
+  
 * As local storage is a synchronous operation I have wrapped the persistence
   to storage in a debounce as a way to help ensure the app remains responsive
   while the user updates. An alternative approach would be to write localstorage
@@ -20,6 +24,8 @@
   plugin to generate the PropTypes - this has the advantage of providing both
   compile time and dev runtime type checking. I see in the Tech Radar that
   typescript would appear to be your preferred approach for this
+  
+* I have used CSS grid with a flex fallback for IE11. I have
 
 ## Testing
 

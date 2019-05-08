@@ -1,5 +1,3 @@
-@import '../../../../utils/Colors.css';
-
 .root {
   flex: 1 1 auto;
   display: flex;
@@ -17,7 +15,7 @@
 .root .subtitle {
   margin-top: 5px;
 
-  color: var(--subtitle);
+  color: #60697A;
 }
 
 .root .subtitle button {
@@ -27,10 +25,10 @@
 
   cursor: pointer;
 
-  color: var(--link);
+  color: #337ab7;
   font-size: 1rem;
 }
 
 .root .subtitle button:hover {
-  color: var(--link-hover);
+  color: #23527c;
 }

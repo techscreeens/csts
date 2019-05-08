@@ -1,10 +1,8 @@
-@import './utils/Colors.css';
-
 body {
   margin: 0;
   padding: 0;
 
-  color: var(--normal-text);
+  color: #333;
   line-height: 1.2;
 }
 

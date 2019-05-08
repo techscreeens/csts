@@ -1,5 +1,3 @@
-@import '../../utils/Colors.css';
-
 .root {
   display: flex;
   flex-direction: column;
@@ -7,15 +5,20 @@
 
 .root .tiles {
   flex: 1 1 auto;
+
+  /* IE11 Fallback */
+  display: flex;
+  flex-wrap: wrap;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
 
   padding: 20px 90px;
 }
 
 .root .tiles .tile {
   flex: 1 1 auto;
+  margin: 10px;
 }
 
 .root .addTileBtn {
@@ -30,17 +33,17 @@
   width: 50px;
   height: 50px;
 
-  background-color: var(--normal-text);
+  background-color: #333;
   border: none;
   border-radius: 25px;
-  box-shadow: var(--black-shadow);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
 
-  color: var(--white);
+  color: #fff;
 
   transition: color linear 0.3s, background-color linear 0.3s;
 }
 
 .root .addTileBtn:hover {
-  background-color: var(--white);
-  color: var(--normal-text);
+  background-color: #fff;
+  color: #333;
 }

@@ -12,7 +12,6 @@ import {
 } from "../actions";
 
 export default produce((draft, action) => {
-  console.debug("Reducing", action);
   switch (action.type) {
     case ADD_TILE: {
       const id = uuidv4();

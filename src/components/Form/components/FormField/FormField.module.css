@@ -1,5 +1,3 @@
-@import '../../../../utils/Colors.css';
-
 .root {
   display: flex;
   flex-direction: column;
@@ -25,7 +23,7 @@
 
   margin-top: 5px;
 
-  color: var(--subtitle);
+  color: #60697A;
   font-size: 0.857rem;
   user-select: none;
 
@@ -33,5 +31,5 @@
 }
 
 .root .countdown.nearLimit {
-  color: var(--warning);
+  color: #fcab53;
 }

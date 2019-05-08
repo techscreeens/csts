@@ -1,8 +1,6 @@
-@import '../../../../utils/Colors.css';
-
 .input input {
   border: none;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid #e8ebf2;
 
   font-size: 1rem;
 
@@ -11,5 +9,5 @@
 
 .input input:focus {
   outline: 0;
-  border-bottom: 1px solid var(--focused);
+  border-bottom: 1px solid #1486ff;
 }

@@ -1,13 +1,11 @@
-@import '../../utils/Colors.css';
-
 .root {
   display: flex;
   flex-direction: column;
 
-  border: 1px solid var(--border);
-  box-shadow: var(--blue-shadow);
+  border: 1px solid #e8ebf2;
+  box-shadow: 0 2px 7px 0 rgba(107,159,213,0.38);
 
-  max-width: 300px;
+  width: 300px;
 }
 
 .root .content {
@@ -41,7 +39,7 @@
 .root .footer .info {
   flex: 0 0 auto;
 
-  color: var(--subtitle);
+  color: #60697A;
   font-size: 0.857rem;
 }
 
@@ -50,7 +48,7 @@
 }
 
 .root .footer .confirmDelete {
-  color: var(--destructive);
+  color: #fa5655;
   user-select: none;
 }
 
@@ -62,10 +60,10 @@
   width: 40px;
   height: 40px;
 
-  color: var(--destructive);
+  color: #fa5655;
   cursor: pointer;
 }
 
 .root .footer .delete:hover {
-  color: var(--destructive-hover);
+  color: #e13d3c;
 }
