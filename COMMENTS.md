@@ -52,3 +52,6 @@
   to the feedback stack when a fulfilled or rejected action is fired.
   This is achieved by executing onSuccessFeedback or onErrorFeedback
   functions if defined in the action meta.
+  
+* For expediency I have used @babel/polyfill for IE11 support, however
+  in a production app I would just include the required core-js polyfills
