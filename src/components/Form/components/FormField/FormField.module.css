@@ -1,0 +1,37 @@
+@import '../../../../utils/Colors.css';
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root label {
+  font-size: 0.85rem;
+  margin-bottom: 3px;
+
+  user-select: none;
+}
+
+.root .input {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.root .countdown {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 5px;
+
+  color: var(--subtitle);
+  font-size: 0.857rem;
+  user-select: none;
+
+  transition: color ease-in-out 0.3s;
+}
+
+.root .countdown.nearLimit {
+  color: var(--warning);
+}
