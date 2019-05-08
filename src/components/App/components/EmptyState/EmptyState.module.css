@@ -1,0 +1,36 @@
+@import '../../../../utils/Colors.css';
+
+.root {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: calc(100vh - 60px);
+}
+
+.root .title {
+  font-size: 1.25rem;
+}
+
+.root .subtitle {
+  margin-top: 5px;
+
+  color: var(--subtitle);
+}
+
+.root .subtitle button {
+  padding: 0;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  color: var(--link);
+  font-size: 1rem;
+}
+
+.root .subtitle button:hover {
+  color: var(--link-hover);
+}
